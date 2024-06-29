@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Student registration</h1>
+    <form action="request.php" method="get">
+        <label for="name">name</label>
+        <input type="text" name="stu_name" id="name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="stu_phone" id="phone" >
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="stu_dob" id="dob">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept="image/*" name="stu_passport" id="pssport">
+        <br><br>
+        <label for="">Gender</label>
+        <br><br>
+        <input type="radio" name="gender" id="male" value="Male"><label for="male"></label>
+        <input type="radio" name="gender" id="famle" value="female"><label for="female">Female</label>
+        <br><br>
+        <label for="year">Year</label>
+        <select name="year" id="year">
+            <option value="">Choose year</option>
+            <option value="1">First year</option>
+            <option value="2">Second year</option>
+            <option value="3">Third year</option>
+        </select>
+        <br><br>
+        <label for="">Hobby</label>
+        <br>
+        <input type="checkbox" name="movie" id="movies" value="Movies"><label for="movies">Movies</label>
+        <input type="checkbox" name="gamming" id="gamming" value="Gamming"><label for="gamming">Gamming</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_address" id="address" cols="30" role="3"></textarea>
+        <br><br>
+        <input type="time" name="" id="">
+        <br><br>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <input type="week" name="" id="">
+        <br><br>
+        <input type="color" name="" id="">
+        <br><br>
+        <input type="range" min="0" max="100" name="" id="">
+        <br><br>
+        <input type="text" name="" id="" required>
+        <br><br>
+        <input type="number" name="placeholder" id=""placeholder="90-9999087647">
+        <br><br>
+        <input type="text" name="" id="" readonly>
+        <input type="text" name="" id="" disable>
+        <br><br>
+        <input type="text" name="def_value" id="" value="35">
+        <button type="submit">Save</button>
+    </form>
+    
+</body>
+</html>
