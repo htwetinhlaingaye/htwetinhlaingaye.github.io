@@ -24,3 +24,38 @@ a[title="google"]{
     word-spacing: 20px;
     line-height: 40px;
 }
+/* Distance selector */
+div p{
+    background-color: yellow ;
+}
+/* Child selector */
+
+div>p{
+    color: black;
+}
+span>p{
+    color: green;
+}
+/* Hover selector */
+h1 a:hover {
+    color: white;
+    font-size: 30px;
+    background-color: red
+    ;
+}
+h2 a:link {
+    color: green;
+}
+/* h2 a:visited {
+    color: brown; */
+
+h2 a:active {
+    color: yellow;
+}
+:target{
+    color: green;
+    border: 10px solid black;
+    line-height: 30px;
+    letter-spacing: 20px;
+    
+}
