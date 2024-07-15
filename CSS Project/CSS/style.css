@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start nav */
+.nav_logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.nav_item{
+    float: right;
+}
+.nav_item li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.nav_item li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav {
+    box-shadow: 0px 5px 20px rgb(0, 0, 0,0.3);
+}
+.nav_item li a:hover{
+    color: red;
+}
+.cart_nav_item{
+    margin: right 100px;
+}
+.cart_noti{
+    position: relative;
+    top: -13px;
+    right: 7px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+.carousel_img{
+    width: 100%;
+} 
+.carousel_text {
+    position: absolute;
+    top: 330px;
+    left: 220px;
+    color: white;
+    background-color: black rgb(0, 0, 0,0.3);
+    padding: 40px;
+
+}
+.carousel_text h2{
+    margin-bottom: 15px;
+}
+.shop_now{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 14px 24px;
+    border: 1px solid red;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.shop_now:hover{
+    cursor: pointer;
+}
+.inline{
+    border: 1px solid rgb(167, 163, 163);
+    display:inline-block;
+    width: 290px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.service{
+    text-align: center;
+    position: relative;
+    top: 580px;
+}
+table{
+   border-spacing: 1cap;
+}

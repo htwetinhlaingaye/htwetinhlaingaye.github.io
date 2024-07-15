@@ -25,9 +25,9 @@ a[title="google"]{
     line-height: 40px;
 }
 /* Distance selector */
-div p{
+/* div p{
     background-color: yellow ;
-}
+} */
 /* Child selector */
 
 div>p{
@@ -58,4 +58,95 @@ h2 a:active {
     line-height: 30px;
     letter-spacing: 20px;
     
+}
+/* layout */
+.inline{
+    border: 2px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block{
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
+}
+/* float */
+.float_right img{
+    width: 40%;
+    float: right;
+}
+.clear{
+    clear:both;
+}
+.float_left img{
+    width: 40%;
+    float:left;
+}
+/* grid */
+.GridOne div, .GridTwo div, .GridThree div,.GridFour div, .GridFive div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.GridOne, .GridTwo, .GridThree,.GridFour,.GridFive{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.GridTwo{
+    grid-column-gap: 40px;
+}
+.GridThree{
+    grid-row-gap: 40px;
+    /* grid-gap: 40px; */
+    grid-column-gap: 10 0px;
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.addrow{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+/* Positon */
+.parent_absolute{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+    
+}
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+
+}
+.parent_relative{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid yellow;
+}
+.relative{
+    width: 400px;
+    height: 200px;
+    border: 2px solid brown;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.Fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+@font-face {
+    font-family: "Playwrite";
+    src:url(Evelins.otf)
+}
+.offlinefont{
+    font-family: "Playwrite";
 }
