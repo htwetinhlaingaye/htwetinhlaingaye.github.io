@@ -74,11 +74,13 @@
     width: 290px;
     padding: 5px;
     border-radius: 5px;
+    margin-right: 1.2%;
+   
 }
 .service{
     text-align: center;
     position: relative;
-    top: 580px;
+    top: 50px;
 }
 table{
    border-spacing: 1cap;
