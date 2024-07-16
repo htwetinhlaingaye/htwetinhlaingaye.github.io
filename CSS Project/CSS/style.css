@@ -40,6 +40,8 @@
     border-radius: 50%;
     color: white;
 }
+/* end nav */
+/* start bunner */
 .carousel_img{
     width: 100%;
 } 
@@ -68,7 +70,38 @@
 .shop_now:hover{
     cursor: pointer;
 }
-.inline{
+/* end bunner */
+
+/* start service */
+.service_text{
+    display: inline-block;
+    margin-left: 10px;
+}
+.service_des{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.service_des1{
+    color: gray;
+}
+.service{
+    margin: 50px 150px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.service div{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+/* end service */
+
+/* start service (My idea) */
+/* .inline{
     border: 1px solid rgb(167, 163, 163);
     display:inline-block;
     width: 290px;
@@ -84,4 +117,100 @@
 }
 table{
    border-spacing: 1cap;
+} */
+/* end service */
+
+/* start promotion  */
+.promotion_title{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.divided{
+    border: 2px solid red;
+    width: 80px;
+    margin-left: 150px;
+   
+}
+.promotion{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    margin: 15px 150px;
+    
+}
+.promotion_image{
+    width: 100%;
+    
+}
+.promotion_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+.promotion_item_name{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.promotion_price{
+    position: absolute;
+    top:2%;
+    right:2% ;
+
+}
+.dis_price{
+    color: red;
+    display: block;
+}
+.nor_price{
+    color: red;
+    text-decoration: line-through;
+}
+/* end promotion  */
+/* start new arrival  */
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.new_arrival_text{
+    display: inline-block;
+}
+.heart_icon{
+    float: right;
+}
+.new_arrival_image{
+    width: 100%;
+}
+.new_arrival_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 20px 10px;
+    position: relative;
+
+}
+.new_arrival_icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity:0;
+}
+.new_arrival_icon a{
+    border: 1px solid red;
+    background-color: rgb(230, 207, 207);
+    color: red;
+    padding: 10px;  
+    border-radius: 5px;
+}
+.new_arrival_icon a:hover{
+    background-color: red;
+    color: white;
+
+}
+.new_arrival_item:hover .new_arrival_icon{
+    opacity:1;
+}
+.new_arrival_image:hover{
+    opacity:.7;
 }
