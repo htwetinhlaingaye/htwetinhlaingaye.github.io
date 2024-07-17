@@ -214,3 +214,159 @@ table{
 .new_arrival_image:hover{
     opacity:.7;
 }
+/* end new arrival  */
+
+/* strat subscribe */
+.subscribe{
+    background-color: red;
+    padding: 50px;
+    margin-top: 50px;
+   
+
+}
+
+.subscribe div{
+    width: 60%;
+    margin-left: 150px;
+    color: white;
+    float: left;
+}
+.subscribe div p{
+    margin-top: 10px;
+    width: 70%;
+    float: left;
+    margin-bottom: 5px;
+}
+.subscribe_input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe_btn{
+    height: 44px;
+    width: 80px;
+    background-color: black;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    border-radius: 0px 5px 5px;
+}
+.subscribe img{
+    width: 13%;
+    height: 22%;
+}
+/* end subscribe  */
+/* start news */
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 150px 0px;
+    grid-column-gap: 40px;
+}
+.new_img{
+    width: 100%;
+}
+.news>div{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.news_text{
+    padding: 10px 20px 20px;
+}
+.news_text h3{
+    margin-bottom: 10px;
+}
+.news_text p{
+    padding: 5px 0px 10px;
+}
+.read_more{
+    border: 1px solid red;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+}
+.read_more:hover{
+    background-color: red;
+    color: white;
+}
+.news_date{
+    opacity: .7;
+    font-style: italic;
+    font-size: 14px;
+}
+.new_img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.image_hover{
+    overflow: hidden;
+    display: inline-block;
+}
+/* end news  */
+
+/* strat footer  */
+.footer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+   padding-top: 40px;
+   display: grid;
+   grid-template-columns: 600px 200px 200px auto;
+   padding: 80px 0px;
+
+}
+.footer_about{
+    margin-left: 100px;
+}
+.divided_footer{
+    width: 80px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.footer_about p{
+    width: 80%;
+    line-height: 25px;
+}
+.footer_nav_item{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.footer_address{
+    margin-top: 20px;
+}
+.address_icon{
+    padding-right: 10px;
+}
+.footer_social_icon a{
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
