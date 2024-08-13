@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="index.html">
+    
+    <style>
+        /* stat nav  */
+.shop_name{
+    position: absolute;
+    top: 18px;
+    left: 35px;
+}
+
+.nav_item a{
+    position: absolute;
+    margin-left: 1210px;
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    box-shadow: 0px 5px 20px rgb(0, 0, 0,0.2);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+   
+}
+.nav_item  a:hover{
+    color: red;
+}
+.cart{
+    text-align: right;
+}
+.cart_noti{
+    position: relative;
+    top: -15px;
+    right: 10px;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+}
+.cart a{
+    color: rgb(252, 251, 251);
+    border: 1px solid blue;
+    border-radius: 6px;
+    background-color: blue;
+    padding: 5px; 
+}
+/* end nav  */
+/* start show items  */
+
+.show_items{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.item_show{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns:  auto auto;
+}
+.item{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.item_img{
+    margin-left: 25px;
+}
+
+.item_name{
+    font-size: 19px;
+    font-weight: 550;
+    margin-bottom: 7px;  
+}
+.item_price{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px ;
+}
+.cart_button{
+    padding: 6px;
+    border-radius: 5px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
+/* end show item  */
+    </style>
+<body>
+    
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <!-- start nav  -->
+    <p class="shop_name">IT shop</p>
+    <nav class="nav">
+        <div  class="nav_item">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="cart">
+            <a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span class="cart_noti">0</span>
+        </div>
+    </nav>
+    <!-- end nav  -->
+    <div class="item_show">
+        <div class="item">
+            <img src="images/laptop1.jfif" alt="" width="230px" height="300px" class="item_img">
+            <p class="item_name" >Laptop 1</p>
+            <span class="item_price" >Price: 2300000 MMK</span><br><br>
+            <button class="cart_button addToCart" data-id="1" data-name="laptop 1" data-price="230000">Add to cart</button>
+        </div>
+        <div class="item">
+                <img src="images/laptop2.jfif" alt="" width="230px" height="300px" class="item_img">
+                <p class="item_name" >Laptop 2</p>
+                <span class="item_price">Price: 2000000 MMK</span><br><br>
+                <button class="cart_button addToCart"  data-id="2" data-name="laptop 2" data-price="200000">Add to cart</button>
+        </div>
+    </div>
+
+    <table border="1" cellpadding="25" cellspacing="0">
+        <thead>
+            <tr>
+                <th >#</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+                <th>Qty</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        <tfoot id="tfoot"></tfoot>
+    </table>
+    <script src="script.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</body>
+</html>
