@@ -1,4 +1,7 @@
 /* nav  */
+.navbar{
+    /* position: fixed; */
+}
 .logo{
     margin-right: 350px;
     font-size: 25px;
@@ -92,4 +95,23 @@ ul li{
     margin-top: 15px;
     
 }
+/* end footer  */
 
+.contact-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-form{
+   background-color: rgb(243, 243, 243);
+   
+    height: 550px;
+    padding: 30px;
+   
+    
+}
+.check_policy a{
+    text-decoration: none;
+    color: black;
+}
+.check_policy a:hover{
+    color: blue;
+}
