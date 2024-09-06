@@ -97,6 +97,7 @@ ul li{
 }
 /* end footer  */
 
+/* contact  */
 .contact-text{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -105,8 +106,6 @@ ul li{
    
     height: 550px;
     padding: 30px;
-   
-    
 }
 .check_policy a{
     text-decoration: none;
@@ -114,4 +113,18 @@ ul li{
 }
 .check_policy a:hover{
     color: blue;
+}
+/* end contact  */
+.about-text{
+    padding: 20px;
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.about_p2{
+    border:  1px solid rgba(164, 165, 165, 0.411);
+    background-color: rgba(164, 165, 165, 0.411);
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
