@@ -6,14 +6,36 @@ body{
 .navbar{
     /* position: fixed; */
 }
-.logo{
-    margin-right: 350px;
+.logo1{
+    background-image: url("images/logo\ bg.png");
+    background-size: 35px 10px;
+    background-repeat: no-repeat;
+  }
+  .logo2{
+    background-image: url("images/logo\ bg.png");
+    background-size: 40px 20px;
+    background-repeat: no-repeat;
+  }
+  .logo {
+    background-image: url("images/logo\ bg.png");
+    background-size: 47px 26px;
+    background-repeat: no-repeat;
+    margin-right: 300px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+  }
+.star{
+    color: rgb(214, 179, 64) ;
 }
 ul li{
     margin-right:35px;
     font-size: 14px;
+}
+.heart a{
+    text-decoration: none;
+    color: black;
+}
+.heart a:hover{
+   color: red;
 }
 /* end nav  */
 
@@ -76,6 +98,9 @@ ul li{
  /* end sign in page  */
 
 /* footer  */
+.footer{
+  background-color: whitesmoke;
+}
 .footer_nav a{
     text-decoration: none;
     color: black;
@@ -134,3 +159,20 @@ ul li{
     word-spacing: 2px;
     letter-spacing: 1px;
 }
+/* start Home design2  */
+.sale__content {
+    padding-bottom: 4rem;
+  }
+  
+.sale__content h2 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+.animate__animated.animate__fadeInRight{
+    --animate-duration: 2s;
+}
+  
+
+  
