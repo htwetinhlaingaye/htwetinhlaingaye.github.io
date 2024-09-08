@@ -4,19 +4,19 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .navbar{
-    /* position: fixed; */
+   
 }
 .logo1{
     background-image: url("images/logo\ bg.png");
     background-size: 35px 10px;
     background-repeat: no-repeat;
   }
-  .logo2{
+.logo2{
     background-image: url("images/logo\ bg.png");
     background-size: 40px 20px;
     background-repeat: no-repeat;
   }
-  .logo {
+.logo {
     background-image: url("images/logo\ bg.png");
     background-size: 47px 26px;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body{
     color: rgb(214, 179, 64) ;
 }
 ul li{
-    margin-right:35px;
+    margin-right:30px;
     font-size: 14px;
 }
 .heart a{
@@ -83,6 +83,9 @@ ul li{
     margin-left: 20px;
     margin-top: 20px;
  }
+ .contact-text{
+    line-height: 30px;
+ }
 
  /* sign in page  */
 .input-text{
@@ -98,9 +101,15 @@ ul li{
  /* end sign in page  */
 
 /* footer  */
-.footer{
-  background-color: whitesmoke;
+.footer-text{
+    font-size: small;
+    line-height: 10px;
+    margin-top: 10px;
 }
+.footer{
+    background-color: whitesmoke;
+}
+  
 .footer_nav a{
     text-decoration: none;
     color: black;
@@ -116,8 +125,6 @@ ul li{
 .footer_p2{
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 .footer_text{
     font-family: 'Times New Roman', Times, serif;
     display: grid;
@@ -129,13 +136,25 @@ ul li{
 /* end footer  */
 
 /* contact  */
+.header-text{
+    background-color: rgb(228, 207, 87);
+    font-size: x-large;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.about-text1{
+    line-height: 26px;
+}
+
 .contact-text{
     font-family: 'Times New Roman', Times, serif;
 }
 .contact-form{
    background-color: rgb(243, 243, 243);
    
-    height: 550px;
+    height: 600px;
     padding: 30px;
 }
 .check_policy a{
@@ -159,6 +178,16 @@ ul li{
     word-spacing: 2px;
     letter-spacing: 1px;
 }
+.about-p2{
+    border:  1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: rgb(122, 112, 54);
+    padding: 20px;
+}
 /* start Home design2  */
 .sale__content {
     padding-bottom: 4rem;
@@ -175,4 +204,5 @@ ul li{
 }
   
 
-  
+
+
